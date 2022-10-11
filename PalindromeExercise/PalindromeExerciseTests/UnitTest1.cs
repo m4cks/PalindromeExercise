@@ -16,7 +16,7 @@ namespace PalindromeExerciseTests
         {
             //Arrange
             WordSmith smith = new WordSmith();
-            //Add
+            //Act
             bool actual = smith.IsAPalindrome(word);
             //Assert
             Assert.Equal(expected, actual);
